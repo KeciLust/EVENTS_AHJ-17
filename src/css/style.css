@@ -7,9 +7,10 @@ height: 400px;
 background-color: darkkhaki;
 margin-right: auto;
 margin-left: auto;
-margin-top: 200px;
+margin-top: 50px;
 display: flex;
 flex-wrap: wrap;
+cursor: url('../img/pngegg.png'), pointer;
 }
 .cell{
     width: 96px;
@@ -24,4 +25,25 @@ flex-wrap: wrap;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 96px;    
+}
+#check{
+    width: 400px;
+    height: 100px;
+    background-color: darkseagreen;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+}
+.win{
+    width: 200px;
+    color: greenyellow;
+    margin-left: 0;
+}
+.lose{
+    width: 200px;
+    color: red;
+    margin-right: 0;
 }
