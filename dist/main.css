@@ -10,7 +10,7 @@ margin-left: auto;
 margin-top: 50px;
 display: flex;
 flex-wrap: wrap;
-cursor: url(./assets/4c4a3b948dc0e714ddbbd2581c1907bd/png), pointer;
+cursor: url(./4c4a3b948dc0e714ddbbd2581c1907bd.png), pointer;
 }
 .cell{
     width: 96px;
@@ -21,7 +21,7 @@ cursor: url(./assets/4c4a3b948dc0e714ddbbd2581c1907bd/png), pointer;
     display: block;
     width: 96px;
     height: 96px;
-    background-image: url(./assets/2dbd01ce16c0fa83cb67e20c73dedb66/png);
+    background-image: url(./2dbd01ce16c0fa83cb67e20c73dedb66.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 96px;    
