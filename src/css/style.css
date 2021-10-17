@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+#game{
+width: 400px;
+height: 400px;
+background-color: darkkhaki;
+margin-right: auto;
+margin-left: auto;
+margin-top: 200px;
+display: flex;
+flex-wrap: wrap;
+}
+.cell{
+    width: 96px;
+    height: 96px;
+    border: 2px solid red ;
+}
+.goblin {
+    display: block;
+    width: 96px;
+    height: 96px;
+    background-image: url("../img/goblin.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 96px;    
+}
