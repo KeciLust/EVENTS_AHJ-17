@@ -14,11 +14,17 @@ export default function listner() {
         win.textContent = i;
       } else {
         alert('WIN');
+        window.location.reload();
       }
     } else {
       y++;
 
-      if (y < 5) { lose.textContent = y; } else { alert('LOSE'); }
+      if (y < 5) {
+        lose.textContent = y;
+      } else {
+        alert('LOSE');
+        window.location.reload();
+      }
     }
   });
 }
