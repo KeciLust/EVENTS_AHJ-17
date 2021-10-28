@@ -43,10 +43,7 @@
     "webpack-merge": "^5.7.3"
   },
   "dependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KeciLust/ahj__env.git"
-  },
+  "repository": "git+https://github.com/KeciLust/ahj__env.git",
   "bugs": {
     "url": "https://github.com/KeciLust/ahj__env/issues"
   },

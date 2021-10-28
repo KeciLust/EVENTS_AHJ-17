@@ -1,8 +1,9 @@
 import createField from './createField';
-import goblinMoves from './goblinMoves';
-import listner from './listnerCells';
+import Moves from './goblinMoves';
 
 const n = 4; // how many cells in a row
 createField(n);
-goblinMoves(n);
-listner();
+
+const moves = new Moves(n);
+moves.interval();
+moves.listner();
