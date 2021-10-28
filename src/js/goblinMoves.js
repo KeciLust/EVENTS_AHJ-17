@@ -15,7 +15,7 @@ export default class Moves {
   }
 
   interval() {
-    setInterval(() => {this.goblinMoves()}, 1000);
+    setInterval(() => { this.goblinMoves(); }, 1000);
   }
 
   goblinMoves() {
